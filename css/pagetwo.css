@@ -1,5 +1,56 @@
 nav{
     width:1440px;
     height:80px;
-    color:white; 
+    color: black
+}
+
+.logo{
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.nav-con{
+    width:80%;
+    height:50px;
+    float:left;
+    padding-right:10px;
+    margin-top: 35px;
+}
+
+.nav-con ul{
+    list-style: none;
+}
+
+.nav-con li{
+    float:left;
+    height:26px;
+    text-align: center;
+    margin-right: 10px;
+    padding-left: 40px;
+}
+
+form{
+    width:30%;
+    margin: 0 auto;
+    margin-top:100px;
+    background-color: lightgray;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:25px;
+    padding-bottom: 40px;
+    float: right;
+}
+
+.form-input{
+    width: 90%;
+    height: 35px;
+    margin-top:10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+select button{
+    width:95% !important;
 }
