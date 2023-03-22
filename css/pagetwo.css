@@ -19,13 +19,11 @@ h3{
 }
 
 .col-1{
-    width:40%;
+    width:20%;
     height:400px;
     background-color: grey;
     text-align: center;
     color: white;
-    float: left;
-    margin-left: 150px;
     margin-top: 30px;
 
 }
@@ -51,15 +49,10 @@ h3{
 }
 
 form{
-    width:25%;
-    margin: 0 auto;
-    margin-top:25px;
-    background-color: lightgray;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 40px;
-    float: right;
-    margin-right: 150px;
+    width: 500px;
+    margin-top: 30px;
+    background-color: grey;
+    height: 400px;
 }
 
 .form-input{
