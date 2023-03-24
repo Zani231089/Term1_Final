@@ -17,23 +17,48 @@
         <div class="logo"><h3>Logo Here</h3></div>
         <div class="nav-con">
             <ul>
-                <li>Recent Releases</li>
+                <a href="../index.html" ><li>Recent Releases</li></a>
                 <li>Popular Albums</li>
-                <li>About Label</li>
-                <li>My Playlists</li>
+                <a href="pagetwo.html"><li class="active">About Label</li></a>    
+                <a href="pagethree.html"> <li>My Playlists</li></a>  
             </ul>
         </div>
     </nav>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-6">
-                <div class="col-box1">Column One</div>
+    <div class="row">
+        <div class="col-6">
+            <h4>This is us</h4>
+            <h1>STREAM</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam non rerum eos illo est inventore dolore ab minima sit aliquid molestias et, quae velit quia nemo corporis exercitationem tenetur sed.</p>
+            <div class="button group">
+                <div class="button normal">B1</div> <div class="button inverted">B2</div>
+            </div>
+            <div class="col-box1">Column One</div>
             </div>
         </div>
-        <div class="col-6">
-            <div class="col-box2">Column Two</div>
+    </div>
+    <div class="col-6">
+        <div class="col-box2">
+            <form>
+                <h3>Get in Touch</h3>
+                <input class="form-input" type="text" placeholder="Your name" required>
+                <input class="form-input" type="email" placeholder="Your email" required>
+                
+                <select>
+                    <option>Option One</option>
+                    <option>Option Two</option>
+                    <option>Option Three</option>
+                    <option>Option Four</option>
+                    <option selected="selected">Subject</option>
+                </select>
+    
+                <textarea class="form-input" placeholder="Message" rows="10"></textarea>
+    
+                <button class="form-input">Play</button>
+                
+            </form>
         </div>
+        
     </div>
     
 </body>
