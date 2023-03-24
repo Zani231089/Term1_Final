@@ -54,6 +54,43 @@ nav{
     margin-left: 200px;
 }
 
+.button3{
+    border-radius: 50%;
+    padding-top: 30px;
+    padding-left:20px;
+    padding-right: 10px;
+    width:50px;
+    height:50px;
+    border:2px solid black;
+    color: white;
+    margin-top:195px;
+    margin-left: 550px;
+}
+.button4{
+    border-radius: 50%;
+    padding-top: 30px;
+    padding-left:20px;
+    padding-right: 10px;
+    width:80px;
+    height:80px;
+    background-color: black;
+    color: white;
+    margin-top:180px;
+    margin-left: 150px;
+}
+
+.button5{
+    border-radius: 50%;
+    padding-top: 30px;
+    padding-left:20px;
+    padding-right: 10px;
+    width:50px;
+    height:50px;
+    border: 2px solid black;
+    color: white;
+    margin-top:195px;
+    margin-left: -250px;
+}
 .container-fluid{
     width:1440px;
 }
@@ -74,15 +111,24 @@ nav{
     height: 470px;
     border: 1px solid black;
     text-align: center;
-    margin-top:70px;
+    margin-top:40px;
 }
 
 .col-box3{
     width: 600px;
     height: 20px;
-    border: 2px solid black;
+    border: none;
     margin-top: 70px;
     padding-bottom:30px;
+}
+
+.col-box6{
+    width:1200px;
+    height:100px;
+    margin-top: 180px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    margin-left: 70px;
 }
 .par-1{
     padding-top:85px;
